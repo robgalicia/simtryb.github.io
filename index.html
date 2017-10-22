@@ -1,5 +1,87 @@
-<?php include("header.html"); ?>
+<!DOCTYPE HTML>
 
+<html>
+	<head>
+		<title>SimtryB</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="index.html">SimtryB</a></h1>
+								<p>A new way to express your ideas</p>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="index.html">Inicio</a></li>
+									<li class="current"><a href="nosotros.html">Nosotros</a></li>
+									<li>
+										<a href="#">Servicios</a>
+										<ul>
+											<li><a href="#">Cotización</a></li>
+											<li><a href="#">Impresion</a></li>
+											<li><a href="#">Impresoras delta</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Galeria</a>
+										<ul>
+											<li><a href="#">Ciencia</a>
+											<ul>
+												<li>
+												<a>Biologia</a>
+												</li>
+												<li><a>Astronomia</a></li>
+												<li><a>Mecánica</a></li>
+												</ul>
+											</li>
+											
+											<li><a href="#">Entretenimiento</a>
+											<ul>
+												<li><a>Figuras</a></li>
+												<li><a>Modelismo</a></li>
+												<li><a>Puzzles</a></li>
+												<li><a>BoardGames</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Hogar</a>
+											<ul>
+												<li><a>Lámparas</a></li>
+												<li><a>Organizadores</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="#">Wearables</a>
+												<ul>
+													<li><a href="#">Pulseras</a></li>
+													<li><a href="#">Anillos</a></li>
+													<li><a href="#">Collares</a></li>
+													
+												</ul>
+											</li>
+											<li><a href="#">Impresoras</a></li>
+										</ul>
+									</li>
+									<li><a href="left-sidebar.html">Contacto</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			
 			<!-- Intro -->
 				<div id="intro-wrapper" class="wrapper style1">
 					<div class="title">What is it?</div>
@@ -127,4 +209,75 @@
 				</div>
 
 			<!-- Footer -->
-<?php include("footer.php"); ?>				
+			<div id="footer-wrapper" class="wrapper">
+					<div class="title">Contáctanos</div>
+					<div id="footer" class="container">
+						<header class="style1">
+							<h2>Si quieres enterarte de nuevos productos y promociones, síguenos en nuestras redes sociales</h2>
+							
+						</header>
+						<hr />
+						<div class="row 150%">
+							<div class="6u 12u(mobile)">
+
+								<!-- Contact -->
+									<section class="feature-list small">
+										<div class="row">
+											
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-comment">Social</h3>
+													<p>
+														<a href="https://twitter.com/SimtryB">twitter.com/SimtryB</a><br />
+														<a href="https://www.instagram.com/simtrybio/">instagram.com/simtrybio/</a><br />
+														<a href="https://www.facebook.com/SimtryB/">facebook.com/SimtryB/</a>
+													</p>
+												</section>
+											</div>
+										</div>
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-envelope">Email</h3>
+													<p>
+												impresiones3de@gmail.com
+													</p>
+												</section>
+											</div>
+											
+										</div>
+									</section>
+
+							</div>
+						</div>
+						<hr />
+					</div>
+					
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+				<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+				<script>
+				  // Initialize Firebase
+				  var config = {
+					apiKey: "AIzaSyDd8MBbT3jUhLzR82hMaUVS20pW3nKNMG0",
+					authDomain: "proyecto-1-2c8a7.firebaseapp.com",
+					databaseURL: "https://proyecto-1-2c8a7.firebaseio.com",
+					projectId: "proyecto-1-2c8a7",
+					storageBucket: "",
+					messagingSenderId: "607109212402"
+				  };
+				  firebase.initializeApp(config);
+				</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
